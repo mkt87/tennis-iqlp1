@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>大人のテニスIQ戦略 LP</title>
+    <meta name="description" content="週1練習・軟式上がりから県チャンピオンを実現した大人のテニスIQ戦略の無料動画プログラムランディングページ" />
+    <meta property="og:title" content="大人のテニスIQ戦略 LP" />
+    <meta property="og:description" content="週1練習・軟式上がりから県チャンピオンを実現した大人のテニスIQ戦略の無料動画プログラムランディングページ" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Allow browser extensions to assign window.fetch safely without throwing "only a getter" TypeError
+      try {
+        let _fetch = window.fetch ? window.fetch.bind(window) : undefined;
+        Object.defineProperty(window, 'fetch', {
+          get: function() { return _fetch; },
+          set: function(val) { _fetch = val; },
+          configurable: true,
+          enumerable: true
+        });
+      } catch (e) {}
+
+      // Prevent third-party browser extension errors from bubbling to the applet
+      window.addEventListener('error', function(event) {
+        if (event && event.filename && event.filename.includes('chrome-extension://')) {
+          event.preventDefault();
+          event.stopImmediatePropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-white text-black antialiased selection:bg-black selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

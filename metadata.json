@@ -1,0 +1,6 @@
+{
+  "name": "大人のテニスIQ戦略 LP",
+  "description": "週1練習・軟式上がりから県チャンピオンを実現した大人のテニスIQ戦略の無料動画プログラムランディングページ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
